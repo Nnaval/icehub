@@ -1,0 +1,76 @@
+.HomeServices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    justify-content: space-around;
+    
+}
+
+.box-services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box-serv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color:#EEF9FF;
+    margin: 10px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 400px;
+    height: 300px;
+    
+
+}
+
+.box-icon{
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px;
+    rotate: 40deg;
+    background-color: #06A3DA;
+}
+
+.icon-box{
+    rotate: -40deg;
+    text-align: center;
+    
+}
+
+.box-serv p{
+    font-size: 25px;
+    padding: 5px;
+}
+
+.call-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    background-color:#06A3DA;
+    color: white;
+    margin: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+.call-us :nth-child(1){
+    margin-bottom: 10px;
+}
+
+@media (min-width:900px) {
+    .box-services{
+        /* display: flex; */
+        /* width: 100%; */
+    }
+}

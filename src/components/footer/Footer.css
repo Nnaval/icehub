@@ -1,0 +1,121 @@
+.main-footer{
+    display: flex;
+    flex-direction: column;
+    background-color:#091E3E;
+    color: white;
+    margin-top: 50px;
+}
+
+.foot-input{
+    display: flex;
+    flex-direction: column;
+    background-color: #06A3DA;
+    padding: 30px;
+    margin: 0 20px;
+    border-radius:  0.2em;
+    font-size: 20px;
+    text-align: center;
+    /* border: 1px solid red; */
+    z-index: 1;
+}
+
+.inputSpan{
+    font-size: 20px;
+    display: flex;   
+}
+
+.inputSpan button{
+    background-color: #091E3E;
+    color: white;
+    padding:5px;
+    border-radius: 0.2em;
+    border: none;
+
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size:18px;
+}
+
+.InTouch{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.InTouch span{
+    display: flex;
+}
+
+.address{
+    gap: 10px;
+    align-items: center;
+}
+
+.inTouch-icon{
+    color: #06A3DA;
+}
+
+.social-account{
+    font-size: 40px;
+    margin: 30px 0;
+}
+
+.social-account-icon{
+    padding: 5px;
+}
+
+.quick-links{
+    padding: 20px;
+}
+
+.quick-links-list li{
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+}
+
+.links-icon{
+    color: #06A3DA;
+    font-size: 20px;
+}
+
+.last{
+    text-align: center;
+    background-color: #061429;
+    padding: 20px;
+    color: white;
+    z-index: -1;
+}
+
+@media (min-width:900px) {
+    .main-footer{
+        display: flex;
+        flex-direction: row;
+        background-color:#091E3E;
+        color: white;
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    .foot-input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 25px;
+        font-size: 25px;
+    }
+    .socials{
+        display: flex;
+        flex-direction: row;
+        padding: 15px;
+        font-size:20px;
+    }
+    .one{
+        font-size: 20px;
+        max-width: 400px;
+    }
+}

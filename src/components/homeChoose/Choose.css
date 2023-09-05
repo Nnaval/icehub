@@ -1,0 +1,105 @@
+.main-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.chooseHead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.chooseHead h3{
+    color: #06A3DA;
+}
+
+
+.services{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-services{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.industry{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.service-icons{
+    background-color:#06A3DA;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 0.2em;
+    font-size: 20px;
+    color: white;
+}
+
+.choose-image{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.winning{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.right-services{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.staff{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+@media (min-width:900px) {
+    .main-con{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        margin-bottom: 80px;
+    }
+    .chooseHead{
+        max-width: 470px;
+        font-size: 20px;
+    }
+    .services{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .choose-image{
+        width: 30%;
+        margin-bottom: 25px;
+        border-radius: 0.2em;
+    }
+    .left-services{
+        padding: 0px;
+        gap: 38px;
+        font-size: 34px;
+    }
+    .right-services{
+        padding: 0px;
+        gap: 38px;
+        font-size: 34px;
+    }
+}

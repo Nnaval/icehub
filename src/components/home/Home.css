@@ -1,0 +1,119 @@
+.home-sec{
+    background-image: url(../../assets/images/IceHomeImage1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 50vh;
+    transition: height 0.3s ease;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+.text{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 5px 5px 4px black;
+}
+
+.text p{
+    margin-bottom: 20px;
+}
+
+.text-btn{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 0.2em;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;border-color: white;
+    font-weight: bolder;
+}
+
+.members{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.intern{
+    width: 100%;
+    padding: 20px;
+    /* height: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #06A3DA;
+    color: white;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.intern-icon{
+    padding: 15px;
+    background-color: white;
+    border-radius: 0.1em;
+    color: blue;
+    font-size: 25px;
+}
+
+.dive{
+    padding: 20px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sec-tab{
+    background-color: #EEF9FF;
+    color: #06A3DA;
+}
+
+.sec-tab-icon{
+    background-color: #06A3DA;
+    color: #EEF9FF;
+}
+
+@media (min-width:900px) {
+    .home-sec{
+        height: 100vh;
+        position: relative;
+    }
+
+    .text{
+        font-size: 50px;
+        max-width: 900px;
+    }
+
+    .text p{
+        font-size:30px;
+    }
+
+    .text-btn{
+        padding: 20px;
+        font-size: 25px;
+    }
+
+    .members{
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 30px;
+        width: 100%;
+        position: absolute;
+        bottom: -180px;
+    }
+
+    .intern{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+}

@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color:white;
+    box-shadow:0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.09);
+
+}
+
+.title{
+    display: flex;
+    flex-direction: column; 
+}
+
+.title h1{
+    color: #06A3DA;
+    font-size: 45px;
+
+    font-weight: 800;
+}
+
+.menu-icon{
+    color: #06A3DA;
+    font-size: 40px;
+    margin-top: 5px;
+    border: 4px solid #06A3DA;
+    border-radius: 0.1em;
+}
+
+.nav{
+    list-style: none;
+    font-size: 20px;
+    transition: linear 0.2s;
+    position:relative;
+}
+
+.nav li{
+    padding: 10px;
+    /* display: none;  */
+}
+
+.inner-tag :hover{
+    display:block;
+    border-bottom: 2px solid #06A3DA;
+}
+ 
+.inner-list{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5px;
+    list-style: none;
+    /* display: none; */
+    background-color:white;
+    position:absolute;
+    z-index:1;
+}
+
+.learn-tag-icon{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+@media screen and (max-width: 899px) {
+    .hide {
+        display: none;
+    }
+}
+
+
+@media  (min-width:900px) {
+    .header{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+    }
+    
+    .menu-icon{
+        display: none;
+    }
+
+    .nav li{
+        padding: 10px;
+        display: block; 
+    }
+    .nav li:hover{
+        border-bottom: 2px solid #06A3DA;
+        /* transition: all 0.5s;  */
+
+    }
+    
+    .nav{
+        list-style: none;
+        display: flex;
+        font-size: 20px; 
+    }
+    
+    .nav :hover{
+        color: #06A3DA;
+        cursor: pointer;
+    }
+    
+    .title{
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        width: 100%;
+    }
+    
+    .inner-list li :hover{
+        color: #06A3DA;
+        border-bottom: 1px solid #06A3DA;
+        transition: all 0.5s;
+        list-style: none;
+        cursor: pointer;
+        border-bottom: none;
+    }
+    .inner-tag{
+        border-bottom: none;
+    }
+    
+}
+
